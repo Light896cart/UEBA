@@ -74,3 +74,41 @@
    ```bash
    git clone https://github.com/Light896cart/UEBA.git
    cd UEBA
+   ```
+2. Создайте и активируйте виртуальное окружение:
+   ```bash
+   # Для Windows:
+python -m venv venv
+venv\Scripts\activate
+
+# Для Linux / macOS:
+python3 -m venv venv
+source venv/bin/activate
+```
+3. Установите зависимости:
+```bash
+pip install -r requirements.txt
+```
+4. Запустите приложение:
+   ```bash
+   python app/main_app.py
+   ```
+(💡 Совет: В репозитории уже содержится предобученная модель в папке `artifacts/` и небольшой семпл данных в `data/`. Вы можете сразу перейти во вкладку "Мониторинг" и протестировать работу системы).
+
+---
+
+## 📂 Структура проекта
+
+```text
+UEBA/
+├── app/                    # Исходный код GUI-приложения
+│   ├── main_app.py         # Точка входа
+│   └── tabs/               # Логика отдельных вкладок
+├── artifacts/              # Артефакты ML (модель, скейлер, порог)
+├── data/                   # Датасеты и история алертов
+├── screenshots/            # Изображения для документации
+├── requirements.txt        # Зависимости проекта
+├── build_exe.bat           # Скрипт для сборки в .exe (Windows)
+├── README.md               # Этот файл
+└── REPORT.md               # Подробный технический отчет о тестировании
+```
