@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# PyInstaller (если собираешь .exe)
+build/
+dist/
+*.spec
+
+# Тяжелые данные (оставляем только sample)
+data/archive/
+*.log
