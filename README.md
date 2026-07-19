@@ -91,13 +91,13 @@
 2. Создайте и активируйте виртуальное окружение:
    ```bash
    # Для Windows:
-python -m venv venv
-venv\Scripts\activate
-
-# Для Linux / macOS:
-python3 -m venv venv
-source venv/bin/activate
-```
+   python -m venv venv
+   venv\Scripts\activate
+   
+   # Для Linux / macOS:
+   python3 -m venv venv
+   source venv/bin/activate
+   ```
 3. Установите зависимости:
 ```bash
 pip install -r requirements.txt
