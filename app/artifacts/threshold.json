@@ -1,0 +1,20 @@
+{
+  "threshold": 0.036736360751092434,
+  "mean_mse": 0.010041591711342335,
+  "std_mse": 0.008898256346583366,
+  "max_mse": 0.19747821986675262,
+  "features": [
+    "cpu_percent",
+    "ram_percent",
+    "disk_read_delta",
+    "disk_write_delta",
+    "net_bytes_sent_delta",
+    "net_bytes_recv_delta",
+    "tcp_established",
+    "tcp_syn_sent",
+    "tcp_time_wait",
+    "top_process_cpu_percent",
+    "cpu_concentration_ratio",
+    "process_spawn_rate"
+  ]
+}
