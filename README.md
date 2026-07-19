@@ -99,9 +99,9 @@
    source venv/bin/activate
    ```
 3. Установите зависимости:
-```bash
-pip install -r requirements.txt
-```
+   ```bash
+   pip install -r requirements.txt
+   ```
 4. Запустите приложение:
    ```bash
    python app/main_app.py
